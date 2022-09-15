@@ -11,12 +11,12 @@ export default function Router(){
     return(
           <BrowserRouter>
              
-             <Header rota="Home" rota2="doguinhos" rota3="gatinhos" rota4="outros gatinhos" />
+             <Header rota="Home" rota2="Doguinhos" rota3="Gatinhos" />
              <Routes>
-                <Route path="/home" element={<Home/>}/>
+                <Route path="/" element={<Home/>}/>
                 <Route path="/dog" element={<Dogs/>}/>
                 <Route path="/cat" element={<Cats/>}/>
-                <Route path="/catTwo" element={<CatsTwo/>}/>
+
              </Routes>
           
           </BrowserRouter>

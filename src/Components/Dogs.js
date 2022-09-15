@@ -31,8 +31,10 @@ const Dogs = () =>{
             Clique aqui
           </button>
           </div>
+         <S.BoxGatos>
+            <S.ImgDog src={data} alt="nome" />
+         </S.BoxGatos>
          
-          <S.ImgDog src={data} alt="nome" />
         
         </S.BoxDog>
       );

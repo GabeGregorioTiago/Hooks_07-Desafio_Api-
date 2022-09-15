@@ -32,17 +32,20 @@ const Cats = () =>{
           </button>
            </div>
           
-         
-
+         <S.BoxGatos>
+              
           {data.map((item) => (
        
        
-                <S.ImgDog src={item.url} alt="Cats" />
-          
-         
-     
-      ))}
-           
+       <S.ImgDog src={item.url} alt="Cats" />
+ 
+
+
+))}
+  
+
+         </S.BoxGatos>
+
          
         </S.BoxDog>
       );
